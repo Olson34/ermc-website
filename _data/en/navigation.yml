@@ -1,0 +1,7 @@
+main:
+  - title: "Participants"
+    url: /participants/
+  - title: "Results"
+    url: /results/
+  - title: "Contact"
+    url: /contact/

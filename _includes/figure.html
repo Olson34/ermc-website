@@ -1,0 +1,7 @@
+{% capture fig_img %}
+![{{ include.alt }}]({{ "/assets/images/" | append: include.filename | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+</figure>

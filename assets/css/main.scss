@@ -1,0 +1,103 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$primary-color              : #214214 !default;
+
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/functions";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/variables";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/variables-dark";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/maps";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/mixins";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/root";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/utilities";
+
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/progress";
+
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/utilities/api";
+
+@import "minimal-mistakes"; // main partials
+
+.masthead, .masthead .greedy-nav {
+  background-color: #f8f8f8;
+}
+
+.lang-switcher {
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  .greedy-nav & {
+    margin-right: 0;
+  }
+}
+
+.lang-icon {
+  display: inline-block;
+  fill: currentColor;
+  width: 1.4em;
+  height: 1.1em;
+  line-height: 1;
+  position: relative;
+  top: -0.1em;
+  vertical-align: middle;
+}
+
+address {
+  font-size: 0.75em;
+  text-align: center;
+  font-style: normal;
+}
+
+.biggus-tablus table {
+  width: 100%;
+
+  td, th {
+    &:nth-child(2) {
+      width: 100%;
+    }
+  }
+}
+
+table.tournament-agenda {
+  display: table;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  th {
+    text-align: center;
+  }
+
+  td:nth-child(2) {
+    text-align: left;
+  }
+}
+
+table.all-borders {
+  border-collapse: collapse;
+
+  th {
+    border: 2px solid mix(#000, $border-color, 25%);
+  }
+
+  td {
+    border: 1px solid mix(#000, $border-color, 25%);
+  }
+}
+
+.wide-iframe {
+  width: 100%;
+
+  @media (min-width: 760px) {
+    width: 760px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

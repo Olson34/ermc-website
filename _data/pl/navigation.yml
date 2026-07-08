@@ -1,0 +1,7 @@
+main:
+  - title: "Uczestnicy"
+    url: /participants/
+  - title: "Wyniki"
+    url: /results/
+  - title: "Kontakt"
+    url: /contact/
