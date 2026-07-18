@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Wyniki
+title: Results
 permalink: /results/
-lang: pl
+lang: en
 ---

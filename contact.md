@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Kontakt
+title: Contact
 permalink: /contact/
-lang: pl
+lang: en
 ---

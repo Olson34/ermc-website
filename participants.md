@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Uczestnicy
+title: Participants
 permalink: /participants/
-lang: pl
+lang: en
 ---

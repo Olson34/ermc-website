@@ -52,17 +52,12 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-archives
   - jekyll-feed
-  - jekyll-polyglot
 
 timezone: Europe/Warsaw
 search: true
 
 permalink: /:categories/:year/:month/:day/:title/
-languages: ["en", "pl"]
-default_lang: pl
-exclude_from_localization: ["javascript", "images", "css"]
-parallel_localization: true
-lang_vars: ["locale"]
+lang: en
 
 paginate: 10
 paginate_path: /page/:num/

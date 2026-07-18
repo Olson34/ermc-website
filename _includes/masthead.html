@@ -23,17 +23,6 @@
           </li>
           {%- endfor -%}
         </ul>
-        {% if site.active_lang == "pl" %}
-          <a class="lang-switcher" type="button" href="/en/">
-            <span class="visually-hidden">Switch to English</span>
-            <svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" preserveAspectRatio="none" width="16" height="16"><clipPath id="s"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#s)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg>
-          </a>
-        {% else %}
-          <a class="lang-switcher" type="button" href=" /">
-            <span class="visually-hidden">Przełącz na polski</span>
-            <svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 10" preserveAspectRatio="none"><rect width="16" height="10" fill="#fff"/><rect width="16" height="5" fill="#dc143c" y="5"/></svg>
-          </a>
-        {% endif %}
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
