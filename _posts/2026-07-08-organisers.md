@@ -6,4 +6,9 @@ categories: [blog]
 lang: en
 ---
 
-# PLM chombo usma
+Main organiser:
+- Polish League of Mahjong (PLM) #TODO dodać link
+
+Support:
+- Upper Silesian Mahjong Association (USMA) #TODO dodać link
+- Kraków Chombo Club Association #TODO dodać link

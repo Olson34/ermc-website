@@ -45,7 +45,7 @@ defaults:
       read_time: false
       comments: false
       share: false
-      related: true
+      related:  
 
 # Build settings
 theme: minimal-mistakes-jekyll
